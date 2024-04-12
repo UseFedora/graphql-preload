@@ -22,4 +22,5 @@ jobs:
         with:
           ruby-version: '2.7' # Not needed with a .ruby-version file
       - run: |
+          rm Gemfile.lock
           bundle install
